@@ -1,9 +1,3 @@
-import { askLLM } from "./llm/chat";
+import { startLoop } from "./agent/start-loop";
 
-async function main() {
-  const answer = await askLLM("Who are you?");
-
-  console.log(answer);
-}
-
-main();
+startLoop();
