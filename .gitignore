@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+
+# build
+dist/
+
+
+# environment
+.env
+
+
+# tests
+coverage/
+
+
+# OS
+.DS_Store
+
+
+# IDE
+.vscode/
+.idea/
