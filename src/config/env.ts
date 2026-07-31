@@ -6,6 +6,7 @@ export const env = {
   apiKey: process.env.OPENAI_API_KEY ?? "",
   model: process.env.OPENAI_MODEL ?? "openai/gpt-3.5-turbo",
   baseURL: process.env.OPENAI_BASE_URL,
+  tavilyApiKey: process.env.TAVILY_API_KEY ?? "",
 };
 
 if (!env.apiKey) {
