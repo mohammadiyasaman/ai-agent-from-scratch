@@ -4,7 +4,7 @@ export async function executeTool(name: string, args: Record<string, unknown>) {
   const tool = findTool(name);
 
   if (!tool) {
-    throw new Error(`Tool ${name} not found`);
+    return `Tool ${name} not found`;
   }
 
   try {

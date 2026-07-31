@@ -28,7 +28,6 @@ export async function askAgent(messages: Message[], input: string) {
     }
 
     // The assistant message itself, which contains tool_calls must be added to history
-    // addAssistantToolCall(messages,)
     addAssistantToolCall(messages, {
       role: "assistant",
       content: assistantMessage.content,
